@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="favicon.png">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="工學天下 360° 環景導覽｜集思室內設計">
+<meta property="og:description" content="玄關、客廳、多功能區、廚房、次臥、工作室、更衣室、主臥 360° 環景導覽，白天／燈光可切換，手機也能走一圈。">
+<meta property="og:image" content="https://fooicebo-wq.github.io/vr-tour/gongxue/og.jpg">
+<meta property="og:url" content="https://fooicebo-wq.github.io/vr-tour/gongxue/">
+<meta property="og:type" content="website">
+<style>html, body { margin: 0; }</style>
+</head>
+<body>
+<title>工學天下 環景導覽</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600&display=swap">
+<style>
+/* Pannellum 2.5.6, https://github.com/mpetroff/pannellum */
+.pnlm-container{margin:0;padding:0;overflow:hidden;position:relative;cursor:default;width:100%;height:100%;font-family:Helvetica,"Nimbus Sans L","Liberation Sans",Arial,sans-serif;background:#f4f4f4 url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2267%22%20height%3D%22100%22%20viewBox%3D%220%200%2067%20100%22%3E%0A%3Cpath%20stroke%3D%22%23ccc%22%20fill%3D%22none%22%20d%3D%22M33.5%2C50%2C0%2C63%2C33.5%2C75%2C67%2C63%2C33.5%2C50m-33.5-50%2C67%2C25m-0.5%2C0%2C0%2C75m-66.5-75%2C67-25m-33.5%2C75%2C0%2C25m0-100%2C0%2C50%22%2F%3E%0A%3C%2Fsvg%3E%0A') repeat;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-o-user-select:none;-ms-user-select:none;user-select:none;outline:0;line-height:1.4;contain:content}.pnlm-container *{box-sizing:content-box}.pnlm-ui{position:absolute;width:100%;height:100%;z-index:1}.pnlm-grab{cursor:grab;cursor:url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%2226%22%20width%3D%2226%22%3E%0A%3Cpath%20stroke%3D%22%23000%22%20stroke-width%3D%221px%22%20fill%3D%22%23fff%22%20d%3D%22m15.3%2020.5s6.38-6.73%204.64-8.24-3.47%201.01-3.47%201.01%203.61-5.72%201.41-6.49c-2.2-0.769-3.33%204.36-3.33%204.36s0.873-5.76-1.06-5.76-1.58%205.39-1.58%205.39-0.574-4.59-2.18-4.12c-1.61%200.468-0.572%205.51-0.572%205.51s-1.58-4.89-2.93-3.79c-1.35%201.11%200.258%205.25%200.572%206.62%200.836%202.43%202.03%202.94%202.17%205.55%22%2F%3E%0A%3C%2Fsvg%3E%0A') 12 8,default}.pnlm-grabbing{cursor:grabbing;cursor:url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%2226%22%20width%3D%2226%22%3E%0A%3Cpath%20stroke%3D%22%23000%22%20stroke-width%3D%221px%22%20fill%3D%22%23fff%22%20d%3D%22m15.3%2020.5s5.07-5.29%203.77-6.74c-1.31-1.45-2.53%200.14-2.53%200.14s2.74-3.29%200.535-4.06c-2.2-0.769-2.52%201.3-2.52%201.3s0.81-2.13-1.12-2.13-1.52%201.77-1.52%201.77-0.261-1.59-1.87-1.12c-1.61%200.468-0.874%202.17-0.874%202.17s-0.651-1.55-2-0.445c-1.35%201.11-0.68%202.25-0.365%203.62%200.836%202.43%202.03%202.94%202.17%205.55%22%2F%3E%0A%3C%2Fsvg%3E%0A') 12 8,default}.pnlm-sprite{background-image:url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2226%22%20height%3D%22208%22%3E%0A%3Ccircle%20fill-opacity%3D%22.78%22%20cy%3D%22117%22%20cx%3D%2213%22%20r%3D%2211%22%20fill%3D%22%23fff%22%2F%3E%0A%3Ccircle%20fill-opacity%3D%22.78%22%20cy%3D%22143%22%20cx%3D%2213%22%20r%3D%2211%22%20fill%3D%22%23fff%22%2F%3E%0A%3Ccircle%20cy%3D%22169%22%20cx%3D%2213%22%20r%3D%227%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%2F%3E%0A%3Ccircle%20cy%3D%22195%22%20cx%3D%2213%22%20r%3D%227%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%2F%3E%0A%3Ccircle%20cx%3D%2213%22%20cy%3D%22195%22%20r%3D%222.5%22%2F%3E%0A%3Cpath%20d%3D%22m5%2083v6h2v-4h4v-2zm10%200v2h4v4h2v-6zm-5%205v6h6v-6zm-5%205v6h6v-2h-4v-4zm14%200v4h-4v2h6v-6z%22%2F%3E%0A%3Cpath%20d%3D%22m13%20110a7%207%200%200%200%20-7%207%207%207%200%200%200%207%207%207%207%200%200%200%207%20-7%207%207%200%200%200%20-7%20-7zm-1%203h2v2h-2zm0%203h2v5h-2z%22%2F%3E%0A%3Cpath%20d%3D%22m5%2057v6h2v-4h4v-2zm10%200v2h4v4h2v-6zm-10%2010v6h6v-2h-4v-4zm14%200v4h-4v2h6v-6z%22%2F%3E%0A%3Cpath%20d%3D%22m17%2038v2h-8v-2z%22%2F%3E%0A%3Cpath%20d%3D%22m12%209v3h-3v2h3v3h2v-3h3v-2h-3v-3z%22%2F%3E%0A%3Cpath%20d%3D%22m13%20136-6.125%206.125h4.375v7.875h3.5v-7.875h4.375z%22%2F%3E%0A%3Cpath%20d%3D%22m10.428%20173.33v-5.77l5-2.89v5.77zm1-1.73%203-1.73-3.001-1.74z%22%2F%3E%0A%3C%2Fsvg%3E%0A')}.pnlm-container:-moz-full-screen{height:100%!important;width:100%!important;position:static!important}.pnlm-container:-webkit-full-screen{height:100%!important;width:100%!important;position:static!important}.pnlm-container:-ms-fullscreen{height:100%!important;width:100%!important;position:static!important}.pnlm-container:fullscreen{height:100%!important;width:100%!important;position:static!important}.pnlm-render-container{cursor:inherit;position:absolute;height:100%;width:100%}.pnlm-controls{margin-top:4px;background-color:#fff;border:1px solid #999;border-color:rgba(0,0,0,0.4);border-radius:3px;cursor:pointer;z-index:2;-webkit-transform:translateZ(9999px);transform:translateZ(9999px)}.pnlm-control:hover{background-color:#f8f8f8}.pnlm-controls-container{position:absolute;top:0;left:4px;z-index:1}.pnlm-zoom-controls{width:26px;height:52px}.pnlm-zoom-in{width:100%;height:50%;position:absolute;top:0;border-radius:3px 3px 0 0}.pnlm-zoom-out{width:100%;height:50%;position:absolute;bottom:0;background-position:0 -26px;border-top:1px solid #ddd;border-top-color:rgba(0,0,0,0.10);border-radius:0 0 3px 3px}.pnlm-fullscreen-toggle-button,.pnlm-orientation-button,.pnlm-hot-spot-debug-indicator{width:26px;height:26px}.pnlm-hot-spot-debug-indicator{position:absolute;top:50%;left:50%;width:26px;height:26px;margin:-13px 0 0 -13px;background-color:rgba(255,255,255,0.5);border-radius:13px;display:none}.pnlm-orientation-button-inactive{background-position:0 -156px}.pnlm-orientation-button-active{background-position:0 -182px}.pnlm-fullscreen-toggle-button-inactive{background-position:0 -52px}.pnlm-fullscreen-toggle-button-active{background-position:0 -78px}.pnlm-panorama-info{position:absolute;bottom:4px;background-color:rgba(0,0,0,0.7);border-radius:0 3px 3px 0;padding-right:10px;color:#fff;text-align:left;display:none;z-index:2;-webkit-transform:translateZ(9999px);transform:translateZ(9999px)}.pnlm-title-box{position:relative;font-size:20px;display:table;padding-left:5px;margin-bottom:3px}.pnlm-author-box{position:relative;font-size:12px;display:table;padding-left:5px}.pnlm-load-box{position:absolute;top:50%;left:50%;width:200px;height:150px;margin:-75px 0 0 -100px;background-color:rgba(0,0,0,0.7);border-radius:3px;text-align:center;font-size:20px;display:none;color:#fff}.pnlm-load-box p{margin:20px 0}.pnlm-lbox{position:absolute;top:50%;left:50%;width:20px;height:20px;margin:-10px 0 0 -10px;display:none}.pnlm-loading{animation-duration:1.5s;-webkit-animation-duration:1.5s;animation-name:pnlm-mv;-webkit-animation-name:pnlm-mv;animation-iteration-count:infinite;-webkit-animation-iteration-count:infinite;animation-timing-function:linear;-webkit-animation-timing-function:linear;height:10px;width:10px;background-color:#fff;position:relative}@keyframes pnlm-mv{from{left:0;top:0}25%{left:10px;top:0}50%{left:10px;top:10px}75%{left:0;top:10px}to{left:0;top:0}}@-webkit-keyframes pnlm-mv{from{left:0;top:0}25%{left:10px;top:0}50%{left:10px;top:10px}75%{left:0;top:10px}to{left:0;top:0}}.pnlm-load-button{position:absolute;top:50%;left:50%;width:200px;height:100px;margin:-50px 0 0 -100px;background-color:rgba(0,0,0,.7);border-radius:3px;text-align:center;font-size:20px;display:table;color:#fff;cursor:pointer}.pnlm-load-button:hover{background-color:rgba(0,0,0,.8)}.pnlm-load-button p{display:table-cell;vertical-align:middle}.pnlm-info-box{font-size:15px;position:absolute;top:50%;left:50%;width:200px;height:150px;margin:-75px 0 0 -100px;background-color:#000;border-radius:3px;display:table;text-align:center;color:#fff;table-layout:fixed}.pnlm-info-box a,.pnlm-author-box a{color:#fff;word-wrap:break-word;overflow-wrap:break-word}.pnlm-info-box p{display:table-cell;vertical-align:middle;padding:0 5px 0 5px}.pnlm-error-msg{display:none}.pnlm-about-msg{font-size:11px;line-height:11px;color:#fff;padding:5px 8px 5px 8px;background:rgba(0,0,0,0.7);border-radius:3px;position:absolute;top:50px;left:50px;display:none;opacity:0;-moz-transition:opacity .3s ease-in-out;-webkit-transition:opacity .3s ease-in-out;-o-transition:opacity .3s ease-in-out;-ms-transition:opacity .3s ease-in-out;transition:opacity .3s ease-in-out;z-index:1}.pnlm-about-msg a:link,.pnlm-about-msg a:visited{color:#fff}.pnlm-about-msg a:hover,.pnlm-about-msg a:active{color:#eee}.pnlm-hotspot-base{position:absolute;visibility:hidden;cursor:default;vertical-align:middle;top:0;z-index:1}.pnlm-hotspot{height:26px;width:26px;border-radius:13px}.pnlm-hotspot:hover{background-color:rgba(255,255,255,0.2)}.pnlm-hotspot.pnlm-info{background-position:0 -104px}.pnlm-hotspot.pnlm-scene{background-position:0 -130px}div.pnlm-tooltip span{visibility:hidden;position:absolute;border-radius:3px;background-color:rgba(0,0,0,0.7);color:#fff;text-align:center;max-width:200px;padding:5px 10px;margin-left:-220px;cursor:default}div.pnlm-tooltip:hover span{visibility:visible}div.pnlm-tooltip:hover span:after{content:'';position:absolute;width:0;height:0;border-width:10px;border-style:solid;border-color:rgba(0,0,0,0.7) transparent transparent transparent;bottom:-20px;left:-10px;margin:0 50%}.pnlm-compass{position:absolute;width:50px;height:50px;right:4px;bottom:4px;border-radius:25px;background-image:url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%2250%22%20width%3D%2250%22%3E%0A%3Cpath%20d%3D%22m24.5078%206-3.2578%2018h7.5l-3.25781-18h-0.984376zm-3.2578%2020%203.2578%2018h0.9844l3.2578-18h-7.5zm1.19531%200.9941h5.10938l-2.5547%2014.1075-2.5547-14.1075z%22%2F%3E%0A%3C%2Fsvg%3E%0A');cursor:default;display:none}.pnlm-world{position:absolute;left:50%;top:50%}.pnlm-face{position:absolute;-webkit-transform-origin:0 0;transform-origin:0 0}.pnlm-dragfix,.pnlm-preview-img{position:absolute;height:100%;width:100%}.pnlm-preview-img{background-size:cover;background-position:center}.pnlm-lbar{width:150px;margin:0 auto;border:#fff 1px solid;height:6px}.pnlm-lbar-fill{background:#fff;height:100%;width:0}.pnlm-lmsg{font-size:12px}.pnlm-fade-img{position:absolute;top:0;left:0}.pnlm-pointer{cursor:pointer}
+/* 版面：環景滿版；左上案名、下方房間列、右下平面圖；單一深色玻璃面板（疊在照片上，刻意不跟系統明暗切換） */
+:root {
+  --bg: #15130f;
+  --panel: rgba(27, 24, 20, 0.80);
+  --ink: #f4efe7;
+  --ink-soft: #cfc6b8;
+  --line: rgba(244, 239, 231, 0.20);
+  --brass: #cdaa6b;
+  --brass-ink: #1d1913;
+  --f-display: "Noto Serif TC", "Songti TC", "PMingLiU", serif;
+  --f-ui: "Noto Sans TC", "Microsoft JhengHei", "PingFang TC", sans-serif;
+  color-scheme: dark;
+}
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-ui); font-size: 18px; overflow: hidden; }
+#pano { position: fixed; inset: 0; z-index: 0; }
+.pnlm-container { background: var(--bg); font-family: var(--f-ui); }
+.pnlm-controls-container { left: auto; right: calc(16px + env(safe-area-inset-right, 0px)); top: calc(16px + env(safe-area-inset-top, 0px)); }
+.pnlm-load-box { background: var(--panel); border-radius: 12px; font-size: 18px; }
+
+.head { position: fixed; z-index: 5; top: calc(14px + env(safe-area-inset-top, 0px)); left: max(16px, env(safe-area-inset-left, 0px));
+  background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 12px 18px; backdrop-filter: blur(6px);
+  max-width: min(520px, calc(100vw - 100px)); }
+.logo { display: block; height: 52px; width: auto; margin: 2px 0 8px -4px; }
+.eyebrow { font-size: 14px; letter-spacing: 0.12em; color: var(--brass); }
+.case { font-family: var(--f-display); font-size: 30px; line-height: 1.25; margin: 2px 0 0; text-wrap: balance; }
+.now { font-size: 18px; color: var(--ink-soft); margin-top: 2px; }
+.now b { color: var(--ink); font-weight: 700; }
+.mode { display: flex; gap: 8px; margin-top: 10px; }
+.mode button { flex: 1; min-height: 46px; padding: 0 18px; border-radius: 999px; border: 1px solid var(--line);
+  background: transparent; color: var(--ink); font: 500 18px var(--f-ui); cursor: pointer; }
+.mode button[aria-pressed="true"] { background: var(--brass); color: var(--brass-ink); border-color: var(--brass); font-weight: 700; }
+.mode button:focus-visible { outline: 3px solid var(--brass); outline-offset: 2px; }
+
+.rooms { position: fixed; z-index: 5; left: 0; right: 0; bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex; gap: 10px; overflow-x: auto; scrollbar-width: none; }
+.rooms button { flex: none; min-height: 54px; padding: 0 22px; border-radius: 999px; border: 1px solid var(--line);
+  background: var(--panel); color: var(--ink); font: 500 19px/1 var(--f-ui); cursor: pointer; backdrop-filter: blur(6px); }
+.rooms button[aria-current="true"] { background: var(--brass); color: var(--brass-ink); border-color: var(--brass); font-weight: 700; }
+.rooms button:focus-visible, .map-toggle:focus-visible { outline: 3px solid var(--brass); outline-offset: 2px; }
+
+.map { position: fixed; z-index: 6; right: max(16px, env(safe-area-inset-right, 0px)); bottom: calc(144px + env(safe-area-inset-bottom, 0px));
+  box-sizing: border-box; width: clamp(240px, 26vw, 340px); max-width: calc(100vw - 32px); background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 12px; backdrop-filter: blur(6px); }
+.map-title { display: flex; justify-content: space-between; align-items: baseline; font-size: 16px; color: var(--ink-soft); margin-bottom: 8px; }
+.plan { position: relative; border-radius: 8px; overflow: hidden; background: #fff; }
+.plan img { display: block; width: 100%; height: auto; }
+.dot { position: absolute; width: 22px; height: 22px; margin: -11px 0 0 -11px; border-radius: 50%; border: 3px solid #fff;
+  background: #3b3530; box-shadow: 0 1px 4px rgba(0,0,0,.5); cursor: pointer; padding: 0; }
+.dot[aria-current="true"] { background: var(--brass); }
+.cone { position: absolute; width: 120px; height: 120px; margin: -60px 0 0 -60px; pointer-events: none;
+  background: conic-gradient(from -35deg, rgba(196,150,70,.85) 0deg 70deg, transparent 70deg); border-radius: 50%;
+  -webkit-mask: radial-gradient(circle closest-side, #000 0 96%, transparent 100%); mask: radial-gradient(circle closest-side, #000 0 96%, transparent 100%); }
+.pnlm-panorama-info { display: none !important; }
+.scalebar { display: flex; align-items: center; gap: 6px; font-size: 14px; color: var(--ink-soft); margin-top: 8px; font-variant-numeric: tabular-nums; }
+.scalebar i { display: block; height: 6px; border: 2px solid var(--ink-soft); border-top: 0; }
+.map[data-closed="true"] { display: none; }
+.map-toggle { position: fixed; z-index: 6; right: max(16px, env(safe-area-inset-right, 0px)); bottom: calc(84px + env(safe-area-inset-bottom, 0px));
+  min-height: 50px; padding: 0 18px; border-radius: 999px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); font: 500 18px var(--f-ui); }
+
+.gis-hot { width: 0; height: 0; }
+.gis-hot .pill { position: absolute; transform: translate(-50%, -50%); white-space: nowrap; display: flex; align-items: center; gap: 8px;
+  padding: 10px 18px 10px 12px; border-radius: 999px; background: var(--panel); border: 2px solid var(--brass); color: var(--ink);
+  font: 700 19px var(--f-ui); cursor: pointer; box-shadow: 0 4px 14px rgba(0,0,0,.35); }
+.gis-hot .pill::before { content: ""; width: 26px; height: 26px; border-radius: 50%; background: var(--brass);
+  -webkit-mask: radial-gradient(circle, #000 0 30%, transparent 32% 52%, #000 54%); mask: radial-gradient(circle, #000 0 30%, transparent 32% 52%, #000 54%); }
+.gis-hot:hover .pill { background: var(--brass); color: var(--brass-ink); }
+.hint { position: fixed; z-index: 4; left: 50%; top: 50%; transform: translate(-50%, -50%); background: var(--panel); border-radius: 12px;
+  padding: 12px 18px; font-size: 18px; pointer-events: none; transition: opacity .6s; }
+
+@media (max-width: 720px) {
+  .case { font-size: 24px; }
+  .map { width: calc(100vw - 32px); }
+}
+@media (prefers-reduced-motion: reduce) { .hint { transition: none; } }
+</style>
+
+<div id="pano" role="application" aria-label="360 度環景"></div>
+
+<header class="head">
+  <img class="logo" src="logo.png" alt="集思室內設計 GIS INTERIOR DESIGN">
+  <div class="eyebrow">台中南區</div>
+  <h1 class="case">工學天下</h1>
+  <div class="now">目前位置：<b id="now">—</b></div>
+  <div class="mode" role="group" aria-label="光線"><button type="button" id="mDay" aria-pressed="true">白天</button><button type="button" id="mNight" aria-pressed="false">燈光</button></div>
+</header>
+
+<nav class="rooms" id="rooms" aria-label="房間"></nav>
+
+<button class="map-toggle" id="mapToggle" type="button" aria-controls="map">平面圖</button>
+<section class="map" id="map" aria-label="平面圖">
+  <div class="map-title"><span>平面圖（點圓點換房間）</span></div>
+  <div class="plan" id="plan"><img src="plan.jpg" alt="工學天下 平面圖"></div>
+  <div class="scalebar"><i style="width:6.67%"></i>1 公尺</div>
+</section>
+
+<div class="hint" id="hint">按住拖曳可以四處看；點地上的標籤可以走到下一個房間</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pannellum/2.5.6/pannellum.js"></script>
+<script>
+const ROOMS = [{"id": "VR1", "name": "玄關", "x": 70.33, "y": 9.62}, {"id": "VR2", "name": "客廳", "x": 50.33, "y": 16.74}, {"id": "VR3", "name": "多功能區", "x": 21.0, "y": 41.42}, {"id": "VR4", "name": "廚房", "x": 16.33, "y": 58.58}, {"id": "VR5", "name": "走道", "x": 62.67, "y": 52.3}, {"id": "VR6", "name": "次臥", "x": 31.67, "y": 43.1}, {"id": "VR7", "name": "工作室", "x": 39.0, "y": 73.22}, {"id": "VR8", "name": "更衣室", "x": 66.0, "y": 72.8}, {"id": "VR9", "name": "主臥", "x": 80.33, "y": 74.9}];
+const SCENES = {"VR1": {"title": "玄關", "panorama": "pano/VR1.jpg?v=1", "yaw": -135, "pitch": -5, "hfov": 105, "northOffset": 0, "hotSpots": [{"pitch": -8, "yaw": -135, "type": "scene", "sceneId": "VR2", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "客廳"}]}, "VR2": {"title": "客廳", "panorama": "pano/VR2.jpg?v=1", "yaw": -60, "pitch": -5, "hfov": 105, "northOffset": 0, "hotSpots": [{"pitch": -10, "yaw": 95, "type": "scene", "sceneId": "VR1", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "玄關"}, {"pitch": -6, "yaw": -118, "type": "scene", "sceneId": "VR3", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "多功能區"}, {"pitch": -2, "yaw": 150, "type": "scene", "sceneId": "VR6", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "次臥"}, {"pitch": -18, "yaw": 145, "type": "scene", "sceneId": "VR5", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "走道"}]}, "VR3": {"title": "多功能區", "panorama": "pano/VR3.jpg?v=1", "yaw": -100, "pitch": -5, "hfov": 105, "northOffset": 0, "hotSpots": [{"pitch": -6, "yaw": 20, "type": "scene", "sceneId": "VR2", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "客廳"}, {"pitch": -14, "yaw": -161, "type": "scene", "sceneId": "VR4", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "廚房"}]}, "VR4": {"title": "廚房", "panorama": "pano/VR4.jpg?v=1", "yaw": -150, "pitch": -5, "hfov": 105, "northOffset": 0, "hotSpots": [{"pitch": -14, "yaw": 19, "type": "scene", "sceneId": "VR3", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "多功能區"}, {"pitch": -6, "yaw": 125, "type": "scene", "sceneId": "VR7", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "工作室"}]}, "VR5": {"title": "走道", "panorama": "pano/VR5.jpg?v=1", "yaw": 110, "pitch": -5, "hfov": 105, "northOffset": 0, "hotSpots": [{"pitch": -6, "yaw": -20, "type": "scene", "sceneId": "VR2", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "客廳"}, {"pitch": -6, "yaw": -160, "type": "scene", "sceneId": "VR8", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "更衣室"}, {"pitch": -8, "yaw": 110, "type": "scene", "sceneId": "VR9", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "主臥"}]}, "VR6": {"title": "次臥", "panorama": "pano/VR6.jpg?v=1", "yaw": 120, "pitch": -5, "hfov": 105, "northOffset": 0, "hotSpots": [{"pitch": -4, "yaw": 81, "type": "scene", "sceneId": "VR2", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "客廳"}]}, "VR7": {"title": "工作室", "panorama": "pano/VR7.jpg?v=1", "yaw": 0, "pitch": -5, "hfov": 105, "northOffset": 0, "hotSpots": [{"pitch": -6, "yaw": -70, "type": "scene", "sceneId": "VR4", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "廚房"}]}, "VR8": {"title": "更衣室", "panorama": "pano/VR8.jpg?v=1", "yaw": 30, "pitch": -5, "hfov": 105, "northOffset": 0, "hotSpots": [{"pitch": -6, "yaw": -34, "type": "scene", "sceneId": "VR5", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "走道"}]}, "VR9": {"title": "主臥", "panorama": "pano/VR9.jpg?v=1", "yaw": 75, "pitch": -5, "hfov": 105, "northOffset": 0, "hotSpots": [{"pitch": -8, "yaw": -17, "type": "scene", "sceneId": "VR5", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "走道"}]}, "VR1@n": {"title": "玄關", "panorama": "pano_night/VR1.jpg?v=1", "yaw": -135, "pitch": -5, "hfov": 105, "northOffset": 0, "hotSpots": [{"pitch": -8, "yaw": -135, "type": "scene", "sceneId": "VR2@n", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "客廳"}]}, "VR2@n": {"title": "客廳", "panorama": "pano_night/VR2.jpg?v=1", "yaw": -60, "pitch": -5, "hfov": 105, "northOffset": 0, "hotSpots": [{"pitch": -10, "yaw": 95, "type": "scene", "sceneId": "VR1@n", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "玄關"}, {"pitch": -6, "yaw": -118, "type": "scene", "sceneId": "VR3@n", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "多功能區"}, {"pitch": -2, "yaw": 150, "type": "scene", "sceneId": "VR6@n", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "次臥"}, {"pitch": -18, "yaw": 145, "type": "scene", "sceneId": "VR5@n", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "走道"}]}, "VR3@n": {"title": "多功能區", "panorama": "pano_night/VR3.jpg?v=1", "yaw": -100, "pitch": -5, "hfov": 105, "northOffset": 0, "hotSpots": [{"pitch": -6, "yaw": 20, "type": "scene", "sceneId": "VR2@n", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "客廳"}, {"pitch": -14, "yaw": -161, "type": "scene", "sceneId": "VR4@n", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "廚房"}]}, "VR4@n": {"title": "廚房", "panorama": "pano_night/VR4.jpg?v=1", "yaw": -150, "pitch": -5, "hfov": 105, "northOffset": 0, "hotSpots": [{"pitch": -14, "yaw": 19, "type": "scene", "sceneId": "VR3@n", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "多功能區"}, {"pitch": -6, "yaw": 125, "type": "scene", "sceneId": "VR7@n", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "工作室"}]}, "VR5@n": {"title": "走道", "panorama": "pano_night/VR5.jpg?v=1", "yaw": 110, "pitch": -5, "hfov": 105, "northOffset": 0, "hotSpots": [{"pitch": -6, "yaw": -20, "type": "scene", "sceneId": "VR2@n", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "客廳"}, {"pitch": -6, "yaw": -160, "type": "scene", "sceneId": "VR8@n", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "更衣室"}, {"pitch": -8, "yaw": 110, "type": "scene", "sceneId": "VR9@n", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "主臥"}]}, "VR6@n": {"title": "次臥", "panorama": "pano_night/VR6.jpg?v=1", "yaw": 120, "pitch": -5, "hfov": 105, "northOffset": 0, "hotSpots": [{"pitch": -4, "yaw": 81, "type": "scene", "sceneId": "VR2@n", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "客廳"}]}, "VR7@n": {"title": "工作室", "panorama": "pano_night/VR7.jpg?v=1", "yaw": 0, "pitch": -5, "hfov": 105, "northOffset": 0, "hotSpots": [{"pitch": -6, "yaw": -70, "type": "scene", "sceneId": "VR4@n", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "廚房"}]}, "VR8@n": {"title": "更衣室", "panorama": "pano_night/VR8.jpg?v=1", "yaw": 30, "pitch": -5, "hfov": 105, "northOffset": 0, "hotSpots": [{"pitch": -6, "yaw": -34, "type": "scene", "sceneId": "VR5@n", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "走道"}]}, "VR9@n": {"title": "主臥", "panorama": "pano_night/VR9.jpg?v=1", "yaw": 75, "pitch": -5, "hfov": 105, "northOffset": 0, "hotSpots": [{"pitch": -8, "yaw": -17, "type": "scene", "sceneId": "VR5@n", "targetYaw": "sameAzimuth", "cssClass": "gis-hot", "createTooltipFunc": "HOT", "createTooltipArgs": "走道"}]}};
+function HOT(div, name) {
+  const p = document.createElement('span');
+  p.className = 'pill';
+  p.textContent = '走到 ' + name;
+  div.appendChild(p);
+}
+for (const s of Object.values(SCENES)) for (const h of s.hotSpots) h.createTooltipFunc = HOT;
+
+const HAS_NIGHT = true;
+// 目前模式：'' 白天、'@n' 燈光；網址加 #night 直接開燈光版
+let SUF = (HAS_NIGHT && location.hash === '#night') ? '@n' : '';
+const base = id => String(id).replace(/@n$/, '');
+const viewer = pannellum.viewer('pano', {
+  default: { firstScene: ROOMS[0].id + SUF, sceneFadeDuration: 700, autoLoad: true, showZoomCtrl: false, compass: false, minHfov: 50, maxHfov: 120 },
+  scenes: SCENES
+});
+
+const roomsEl = document.getElementById('rooms');
+const planEl = document.getElementById('plan');
+const cone = document.createElement('div');
+cone.className = 'cone';
+planEl.appendChild(cone);
+// 環景還在載入時切換房間會讓 pannellum 卡在黑畫面，所以先記下來，載完再切
+let pending = null;
+function go(id) {
+  const t = base(id) + SUF;
+  if (viewer.isLoaded()) { if (t !== viewer.getScene()) viewer.loadScene(t); }
+  else pending = t;
+}
+viewer.on('load', () => {
+  if (pending && pending !== viewer.getScene()) { const p = pending; pending = null; viewer.loadScene(p); }
+  else pending = null;
+});
+const btns = {}, dots = {};
+for (const r of ROOMS) {
+  const b = document.createElement('button');
+  b.type = 'button'; b.id = 'room-' + r.id; b.textContent = r.name;
+  b.onclick = () => go(r.id);
+  roomsEl.appendChild(b); btns[r.id] = b;
+  const d = document.createElement('button');
+  d.type = 'button'; d.className = 'dot'; d.title = r.name; d.setAttribute('aria-label', r.name);
+  d.style.left = r.x + '%'; d.style.top = r.y + '%';
+  d.onclick = () => go(r.id);
+  planEl.appendChild(d); dots[r.id] = d;
+}
+function markRoom(id) {
+  id = base(id);
+  const r = ROOMS.find(x => x.id === id);
+  document.getElementById('now').textContent = r ? r.name : '—';
+  for (const k in btns) { btns[k].setAttribute('aria-current', String(k === id)); dots[k].setAttribute('aria-current', String(k === id)); }
+  if (r) { cone.style.left = r.x + '%'; cone.style.top = r.y + '%'; }
+  btns[id] && btns[id].scrollIntoView({ block: 'nearest', inline: 'center' });
+}
+viewer.on('scenechange', markRoom);
+viewer.on('load', () => markRoom(viewer.getScene()));
+
+// 白天／燈光切換：停在同一個房間、同一個視角
+if (HAS_NIGHT) {
+  const mDay = document.getElementById('mDay'), mNight = document.getElementById('mNight');
+  const paint = () => { mDay.setAttribute('aria-pressed', String(!SUF)); mNight.setAttribute('aria-pressed', String(!!SUF)); };
+  function setMode(night) {
+    SUF = night ? '@n' : '';
+    paint();
+    history.replaceState(null, '', night ? '#night' : location.pathname + location.search);
+    const cur = viewer.getScene(); if (!cur) return;
+    const t = base(cur) + SUF; if (t === cur) return;
+    if (viewer.isLoaded()) viewer.loadScene(t, viewer.getPitch(), viewer.getYaw(), viewer.getHfov());
+    else pending = t;
+  }
+  mDay.onclick = () => setMode(false);
+  mNight.onclick = () => setMode(true);
+  addEventListener('hashchange', () => setMode(location.hash === '#night'));
+  paint();
+}
+(function spin() { cone.style.transform = 'rotate(' + viewer.getYaw() + 'deg)'; requestAnimationFrame(spin); })();
+
+const hint = document.getElementById('hint');
+const hideHint = () => { hint.style.opacity = 0; };
+viewer.on('mousedown', hideHint); viewer.on('touchstart', hideHint); setTimeout(hideHint, 10000);
+
+const map = document.getElementById('map'), tog = document.getElementById('mapToggle');
+function setMap(open) { map.dataset.closed = String(!open); tog.textContent = open ? '收起平面圖' : '平面圖'; tog.setAttribute('aria-expanded', String(open)); }
+setMap(innerWidth >= 1000 && innerHeight >= 650);
+tog.onclick = () => setMap(map.dataset.closed === 'true');
+</script>
+
+</body>
+</html>
